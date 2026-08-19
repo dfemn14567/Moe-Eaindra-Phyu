@@ -2,7 +2,7 @@
 const steps = [
   {
     text: "စိတ်ဆိုးနေတုန်းလား? 💔",
-    image: "https://gifdb.com/images/high/cute-sad-cat-crying-emoji-0v965r4h1k0z4n9n.gif"
+    image: "https://raw.githubusercontent.com/dfemn14567/Moe-Eaindra-Phyu/refs/heads/main/IMG_20260505_183609.jpg"
   },
   {
     text: "ပစ်ထားတာမို့လို့ ကလေးကျနေတာပဲ 🥺",
