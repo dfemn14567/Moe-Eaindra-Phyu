@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffe6ea;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #ff4d6d;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  min-height: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+button {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#yes-btn {
+  background-color: #2ec4b6;
+  color: white;
+}
+
+#yes-btn:hover {
+  background-color: #20a39e;
+  transform: scale(1.05);
+}
+
+#no-btn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#no-btn:hover {
+  background-color: #e63946;
+  transform: scale(1.05);
+}
+
